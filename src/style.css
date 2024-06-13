@@ -163,8 +163,6 @@ footer li {
 .card-imgs {
   width: 100%;
 }
-.card-link {
-}
 .card-btn {
   font-size: 14px;
   font-weight: 700;
@@ -202,7 +200,7 @@ footer li {
   header a {
     font-size: 11px;
     line-height: 1.2;
-    padding: 16px 32px 16px 32px;
+    padding: 16px 32px;
     margin-bottom: 150px;
   }
   section {
@@ -247,5 +245,10 @@ footer li {
   }
   .img-responsive {
     width: 100%;
+  }
+  .card-btn {
+    font-size: 11px;
+    line-height: 1.2;
+    padding: 16px 50px;
   }
 }
