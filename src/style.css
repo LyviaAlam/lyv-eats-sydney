@@ -100,25 +100,30 @@ footer h3 {
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
+  color: #ffffff;
 }
 footer p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   opacity: 0.7;
+  color: #ffffff;
 }
 footer a {
   color: #ffffff;
   text-decoration: none;
   opacity: 0.7;
+  font-weight: bold;
 }
 footer ul {
   padding: 0;
+  color: #ffffff;
 }
 footer li {
   list-style: none;
   padding: 0;
   margin: 0;
+  color: #ffffff;
 }
 .main-img {
   max-width: 570px;
@@ -156,7 +161,7 @@ footer li {
   text-align: center;
 }
 .card-imgs {
-  max-width: 185px;
+  width: 100%;
 }
 .card-link {
 }
@@ -169,9 +174,13 @@ footer li {
   text-decoration: none;
   display: inline-block;
   margin: 0 0 32px 0;
-  background-color: #462cb2;
+  background-color: #2abb9b;
   color: #ffffff;
   padding: 16px 100px;
+}
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 @media (max-width: 960px) {
@@ -198,6 +207,7 @@ footer li {
   }
   section {
     padding: 40px 40px;
+    text-align: center;
   }
 
   section h4 {
@@ -225,13 +235,17 @@ footer li {
   footer li {
     font-size: 12px;
     line-height: 20px;
+    text-align: center;
   }
 
+  .main-img {
+    margin-top: 50px;
+  }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 12px;
   }
   .img-responsive {
-    max-width: 100%;
+    width: 100%;
   }
 }
